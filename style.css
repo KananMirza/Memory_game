@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+td img{
+    width: 80%;
+    height: 80%;
+}
+div{margin: auto;}
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#choose_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    width: 150px;
+    
+}
+#result{
+    text-align: center;
+}
+#puzzle>h1{
+    text-align: center;
+    display: block;
+ 
+    
+}
+#puzzle{
+    display: none;
+}
+#btn{
+    display: none;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+        margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    button{
+        width: 100px;
+        
+    }
+    td{
+        width: 100px;
+        height: 100px;
+    }
+    #btn{
+        width: 120px;
+        
+    }
+  }
+  
+
+
